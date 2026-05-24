@@ -1,6 +1,6 @@
 import { setLocalStorageItem } from '@/utils/storage';
 
-/**
+/*
  * 订阅表单状态管理 - 为Vue 2 Options API设计
  */
 export function useSubscriptionForm() {
@@ -10,7 +10,7 @@ export function useSubscriptionForm() {
     form: {
       sourceSubUrl: "",
       clientType: "",
-      customBackend: "",
+      customBackend: "https://subapi.shcyblog.com/sub?",
       remoteConfig: "",
       excludeRemarks: "",
       includeRemarks: "",
