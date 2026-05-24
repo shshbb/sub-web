@@ -240,7 +240,7 @@ export default {
       // 配置选项
       options: {
         clientTypes: CLIENT_TYPES,
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "https://subapi.shcyblog.com/sub?" }],
         remoteConfig: REMOTE_CONFIGS
       },
 
